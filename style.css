@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+  color: white;
+}
+
+.matrix-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#matrix {
+  width: 100%;
+  height: 100%;
+}
+
+.mu {
+  margin-top: 50px;
+}
+
+canvas {
+  position: fixed;
+  top: auto;
+  left: auto;
+  background-color: black;
+  z-index: -1;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-size: auto;
+  scroll-behavior: smooth;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.h1-mai {
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  margin-top: 20%;
+}
+button {
+  background-color: rgb(3, 134, 34);
+  width: 300px;
+  height: 40px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(8, 4, 89);
+}
+/* ---------------------------About----------------------- */
