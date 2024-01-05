@@ -77,4 +77,13 @@ button {
 button:hover {
   background-color: rgb(8, 4, 89);
 }
+
+@media screen and (max-width: 480px) {
+  .main {
+    display: flex;
+    padding-left: 70px;
+    font-size: 10px;
+   
+  }
+}
 /* ---------------------------About----------------------- */
